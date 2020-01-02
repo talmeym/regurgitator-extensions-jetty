@@ -55,8 +55,8 @@ public class RegurgitatorJettyServer {
     }
 
     private static void loadServlet(ServletContextHandler handler, Class<? extends Servlet> servlet, String initParamName, String InitParamValue, String contextPath) {
-        ServletHolder regurgServletHolder = new ServletHolder(servlet);
-        regurgServletHolder.setInitParameter(initParamName, InitParamValue);
-        handler.addServlet(regurgServletHolder, contextPath);
+        ServletHolder servletHolder = new ServletHolder(servlet);
+        servletHolder.setInitParameter(initParamName, InitParamValue);
+        handler.addServlet(servletHolder, contextPath);
     }
 }
