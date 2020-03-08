@@ -13,12 +13,12 @@ regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](
 #### RegurgitatorJettyServer command line arguments
 
 * port - the port on which to accept connections
-* config path - the path from which to load the regurgitator servlet's config file
+* config file - the path from which to load the regurgitator servlet's config file
 * regurgitator context path - the context path for all calls that the regurgitator servlet should process
-* global properties path - the path from which to load the optional global context properties file
+* global properties file - the path from which to load the optional global context properties file
 * global context path - the context path for all calls the global context servlet should process
 
-```java RegurgitatorJettyServer [port] [config path] [regurg. context path] [global properties path] [global context path]```
+```java RegurgitatorJettyServer [port] [config file] [context path] [global properties file] [context path]```
 
 eg.
 
