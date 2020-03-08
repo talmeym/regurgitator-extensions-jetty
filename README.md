@@ -16,4 +16,4 @@ eg.
 
 ```java -cp rock-paper-scissors.jar com.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer 8090 "classpath:/rock-paper-scissors.xml" "/rockpaperscissors/*" "classpath:/global.properties" "/global/*"```
 
-see the reference project here [project],(https://github.com/talmeym/rock-paper-scissors) [Dockerfile](https://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
+see the reference project here: [project](https://github.com/talmeym/rock-paper-scissors), [Dockerfile](https://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
