@@ -10,7 +10,7 @@ regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](
 
 ### RegurgitatorJettyServer usage
 
-```java com.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer [port] [config file path] [regurgitator servlet context path] [global context properties path] [global context servlet context]```
+```java RegurgitatorJettyServer [port] [config path] [regurgitator servlet context path] [global properties path] [global context servlet context]```
 
 eg.
 
