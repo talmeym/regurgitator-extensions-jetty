@@ -9,7 +9,6 @@ import com.emarte.regurgitator.extensions.web.RegurgitatorServlet;
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
-import org.eclipse.jetty.server.session.HashSessionManager;
 import org.eclipse.jetty.server.session.SessionHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
@@ -34,10 +33,7 @@ public class RegurgitatorJettyServer {
 
         ServletContextHandler context = new ServletContextHandler(null, "/", SESSIONS);
         server.setHandler(context);
-
-        HashSessionManager manager = new HashSessionManager();
-        SessionHandler sessions = new SessionHandler(manager);
-        context.setSessionHandler(sessions);
+        context.setSessionHandler(new SessionHandler());
 
         loadServlet(context, RegurgitatorServlet.class, "config-location", configLocation, configContextPath);
 
