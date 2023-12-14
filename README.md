@@ -26,4 +26,4 @@ eg.
 
 above example from the reference project here: [project](https://github.com/talmeym/rock-paper-scissors), [Dockerfile](https://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
 
-regurgitator can alternatively be run in an application / web server, eg. Tomcat, see [here](https://github.com/talmeym/rock-paper-scissors/blob/master/src/main/webapp/WEB-INF/web.xml)
+regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://github.com/talmeym/rock-paper-scissors/blob/master/src/main/webapp/WEB-INF/web.xml)
