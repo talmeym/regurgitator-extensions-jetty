@@ -4,14 +4,14 @@
  */
 package uk.emarte.regurgitator.extensions.jetty;
 
-import uk.emarte.regurgitator.extensions.web.GlobalMetadataServlet;
-import uk.emarte.regurgitator.extensions.web.RegurgitatorServlet;
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.server.session.SessionHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
+import uk.emarte.regurgitator.extensions.web.GlobalMetadataServlet;
+import uk.emarte.regurgitator.extensions.web.RegurgitatorServlet;
 
 import javax.servlet.Servlet;
 
