@@ -2,16 +2,16 @@
  * Copyright (C) 2017 Miles Talmey.
  * Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
  */
-package com.emarte.regurgitator.extensions.jetty;
+package uk.emarte.regurgitator.extensions.jetty;
 
-import com.emarte.regurgitator.extensions.web.GlobalMetadataServlet;
-import com.emarte.regurgitator.extensions.web.RegurgitatorServlet;
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.server.session.SessionHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
+import uk.emarte.regurgitator.extensions.web.GlobalMetadataServlet;
+import uk.emarte.regurgitator.extensions.web.RegurgitatorServlet;
 
 import javax.servlet.Servlet;
 
