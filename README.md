@@ -22,7 +22,7 @@ regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](
 
 eg.
 
-```java -cp rock-paper-scissors.jar com.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer 8090 "classpath:/rock-paper-scissors.xml" "/rockpaperscissors/*" "classpath:/global.properties" "/global/*"```
+```java -cp rock-paper-scissors.jar uk.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer 8090 "classpath:/rock-paper-scissors.xml" "/rockpaperscissors/*" "classpath:/global.properties" "/global/*"```
 
 above example from the reference project here: [project](https://github.com/talmeym/rock-paper-scissors), [Dockerfile](https://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
 
