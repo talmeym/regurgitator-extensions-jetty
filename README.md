@@ -24,6 +24,6 @@ eg.
 
 ```java -cp rock-paper-scissors.jar uk.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer 8090 "classpath:/rock-paper-scissors.xml" "/rockpaperscissors/*" "classpath:/global.properties" "/global/*"```
 
-above example from the reference project here: [project](https://talmeym.github.io/rock-paper-scissors), [Dockerfile](https://talmeym.github.io/rock-paper-scissors/blob/master/Dockerfile)
+above example from the reference project here: [project](https://github.com/talmeym/primeable-mock-server), [Dockerfile](https://github.com/talmeym/primeable-mock-server/blob/master/Dockerfile)
 
-regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://talmeym.github.io/rock-paper-scissors/blob/master/src/main/webapp/WEB-INF/web.xml)
+regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://github.com/talmeym/primeable-mock-server/blob/master/src/main/webapp/WEB-INF/web.xml)
