@@ -2,11 +2,11 @@
 
 regurgitator is a lightweight, modular, extendable java framework that you configure to 'regurgitate' canned or clever responses to incoming requests; useful for quickly mocking or prototyping services without writing any code. simply configure, deploy and run.
 
-start your reading here: [regurgitator-all](http://github.com/talmeym/regurgitator-all#regurgitator)
+start your reading here: [regurgitator-all](https://talmeym.github.io/regurgitator-all#regurgitator)
 
 ## running regurgitator using jetty
 
-regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](https://github.com/talmeym/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://github.com/talmeym/regurgitator-extensions-web#global-metadata-servlet) in a small jetty server to allow for easy containerisation and use with virtualisation software such as [docker](https://www.docker.com)
+regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](https://talmeym.github.io/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://talmeym.github.io/regurgitator-extensions-web#global-metadata-servlet) in a small jetty server to allow for easy containerisation and use with virtualisation software such as [docker](https://www.docker.com)
 
 ### RegurgitatorJettyServer usage
 
@@ -24,6 +24,6 @@ eg.
 
 ```java -cp rock-paper-scissors.jar uk.emarte.regurgitator.extensions.jetty.RegurgitatorJettyServer 8090 "classpath:/rock-paper-scissors.xml" "/rockpaperscissors/*" "classpath:/global.properties" "/global/*"```
 
-above example from the reference project here: [project](https://github.com/talmeym/rock-paper-scissors), [Dockerfile](https://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
+above example from the reference project here: [project](http://github.com/talmeym/rock-paper-scissors), [Dockerfile](http://github.com/talmeym/rock-paper-scissors/blob/master/Dockerfile)
 
-regurgitator can alternatively be run in an application / web server, eg. Tomcat, see [here](https://github.com/talmeym/rock-paper-scissors/blob/master/src/main/webapp/WEB-INF/web.xml)
+regurgitator can alternatively be run in an application / web server, eg. Tomcat, see [here](http://github.com/talmeym/rock-paper-scissors/blob/master/src/main/webapp/WEB-INF/web.xml)
