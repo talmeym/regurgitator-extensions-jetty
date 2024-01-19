@@ -26,4 +26,4 @@ eg.
 
 above example from the reference project here: [project](https://github.com/talmeym/primeable-mock-server), [Dockerfile](https://github.com/talmeym/primeable-mock-server/blob/master/Dockerfile)
 
-regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://github.com/talmeym/primeable-mock-server/blob/master/src/main/webapp/WEB-INF/web.xml)
+regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://talmeym.github.io/regurgitator-extensions-web#tomcat)
