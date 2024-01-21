@@ -4,6 +4,8 @@ regurgitator is a lightweight, modular, extendable java framework that you confi
 
 start your reading here: [regurgitator-all](https://talmeym.github.io/regurgitator-all#regurgitator)
 
+[``apidocs``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.2/)
+
 ## running regurgitator using jetty
 
 regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](https://talmeym.github.io/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://talmeym.github.io/regurgitator-extensions-web#global-metadata-servlet) in a small jetty server to allow for easy containerisation and use with virtualisation software such as [docker](https://www.docker.com){:target="_blank"}
