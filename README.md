@@ -8,7 +8,7 @@ start your reading here: [regurgitator-all](https://talmeym.github.io/regurgitat
 
 ## running regurgitator using jetty
 
-regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](https://talmeym.github.io/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://talmeym.github.io/regurgitator-extensions-web#global-metadata-servlet) in a small jetty server, allowing for easy use with containerization software such as [docker](https://www.docker.com){:target="_blank"}
+regurgitator-extensions-jetty allows you to run both the [regurgitator servlet](https://talmeym.github.io/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://talmeym.github.io/regurgitator-extensions-web#global-metadata-servlet) in a small jetty server; perfect for containerization with software such as [docker](https://www.docker.com){:target="_blank"}
 
 ### RegurgitatorJettyServer usage
 
