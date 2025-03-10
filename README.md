@@ -28,4 +28,7 @@ above example from the reference project here: [project](https://github.com/talm
 
 regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://talmeym.github.io/regurgitator-extensions-web#tomcat)
 
-[``apidocs``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.4/){:target="_blank"}
+---
+
+api docs: [``0.1.4``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.4/){:target="_blank"} [``0.1.3``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.3/){:target="_blank"}
+ [``0.1.2``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.2/){:target="_blank"}
