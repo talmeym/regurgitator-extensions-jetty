@@ -4,8 +4,6 @@ regurgitator is a lightweight, modular, extendable java framework that you confi
 
 start your reading here: [regurgitator-all](https://talmeym.github.io/regurgitator-all#regurgitator)
 
-[``apidocs``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.4/){:target="_blank"}
-
 ## running regurgitator using jetty
 
 regurgitator-extensions-jetty enables both the [regurgitator servlet](https://talmeym.github.io/regurgitator-extensions-web#regurgitator-servlet) and the [global metadata servlet](https://talmeym.github.io/regurgitator-extensions-web#global-metadata-servlet) to run in a small jetty server; allowing you to containerization mocks with software such as [docker](https://www.docker.com){:target="_blank"}
@@ -29,3 +27,5 @@ eg.
 above example from the reference project here: [project](https://github.com/talmeym/primeable-mock-server){:target="_blank"}, [Dockerfile](https://github.com/talmeym/primeable-mock-server/blob/master/Dockerfile){:target="_blank"}
 
 regurgitator can alternatively be run in an application / web server, e.g. Tomcat, see [here](https://talmeym.github.io/regurgitator-extensions-web#tomcat)
+
+[``apidocs``](https://regurgitator.emarte.uk/apidocs/regurgitator-extensions-jetty/0.1.4/){:target="_blank"}
